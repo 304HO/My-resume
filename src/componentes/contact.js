@@ -28,6 +28,9 @@ const Contact = ({ contactRef }) => {
         method="POST"
         data-email="lonnie4165@gmail.com"
         action="https://script.google.com/macros/s/AKfycbzydGQl7shfvdwTCXvflyeR1m50Fsuy0mx-dK6wivLywc8EAT6ja72O1XDIQHdJ2NLCdw/exec"
+        data-cfasync="false"
+        type="text/javascript"
+        src="form-submission-handler.js"
       >
         <div>
           <div>
