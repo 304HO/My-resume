@@ -3,6 +3,10 @@ import styled from "styled-components";
 import Tags from "./tag";
 
 const Contact = ({ contactRef }) => {
+  const sendAlert = () => {
+    alert("메일 전송에 성공했습니다. 확인 후 회신드리겠습니다. 감사합니다.");
+  };
+
   const info = [
     { img: "user", lable: "이름", value: "제경모" },
     { img: "phone", lable: "연락처", value: "010-4165-7579" },
@@ -58,7 +62,7 @@ const Contact = ({ contactRef }) => {
             />
           </div>
 
-          <Button>이메일 전송하기</Button>
+          <Button onClick={sendAlert}>이메일 전송하기</Button>
         </div>
       </ContactForm>
     </RootContainer>

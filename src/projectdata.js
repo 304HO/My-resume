@@ -18,12 +18,12 @@ const projectData = [
       },
       {
         lable: "GitHub",
-        value: "",
+        value: "https://github.com/304HO/my-resume",
         isLink: true,
       },
       {
         lable: "URL",
-        value: "",
+        value: "https://304ho.github.io/my-resume/",
         isLink: true,
       },
     ],
