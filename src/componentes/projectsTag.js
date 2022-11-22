@@ -7,7 +7,7 @@ const ProjectTag = ({ tag }) => {
     <RootContainer>
       {tag.map((el, idx) => {
         return (
-          <DescriptContainer>
+          <DescriptContainer key={idx}>
             <Descript>
               <FaCheck size={25} />
               <Lable>{el.lable}</Lable>

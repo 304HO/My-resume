@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Tags from "./tag";
 
 const Contact = ({ contactRef }) => {
-  const sendAlert = () => {
+  const sendAlert = (e) => {
     alert("메일 전송에 성공했습니다. 확인 후 회신드리겠습니다. 감사합니다.");
   };
 
@@ -25,9 +25,10 @@ const Contact = ({ contactRef }) => {
       </InfoContainer>
 
       <ContactForm
+        target="iframe1"
         method="POST"
         data-email="lonnie4165@gmail.com"
-        action="https://script.google.com/macros/s/AKfycbzydGQl7shfvdwTCXvflyeR1m50Fsuy0mx-dK6wivLywc8EAT6ja72O1XDIQHdJ2NLCdw/exec"
+        action="https://script.google.com/macros/s/AKfycbxx9jUg4xCo8ZPEodtvjU9INMiMqWt6S_Pv6YYvt_O67nU7DDAzfWam98aTLlBYbOLZsQ/exec"
       >
         <div>
           <div>
@@ -58,7 +59,7 @@ const Contact = ({ contactRef }) => {
               placeholder="메세지를 입력해주세요."
             />
           </div>
-          <Button onClick={sendAlert} data-cfasync="false">
+          <Button type="submit" onClick={sendAlert}>
             이메일 전송하기
           </Button>
         </div>

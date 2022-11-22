@@ -37,8 +37,8 @@ const AboutMe = ({ aboutmeRef }) => {
       <IconContainer>
         {images.map((el, i) => {
           return (
-            <Content>
-              <IconImgContainer key={i} src={el.src} />
+            <Content key={i}>
+              <IconImgContainer src={el.src} />
               <br />
               <IconDescript>{el.label1}</IconDescript>
               <IconDescript>{el.label2}</IconDescript>

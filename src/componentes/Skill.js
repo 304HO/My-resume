@@ -29,9 +29,9 @@ const SkillTool = ({ skillRef }) => {
     <RootContainer ref={skillRef}>
       <Title>{`Skills & Tool`}</Title>
       <Box>
-        {images.map((el) => {
+        {images.map((el, idx) => {
           return (
-            <ContentContainer key={el.name}>
+            <ContentContainer key={idx}>
               <ContentTitle>{el.name}</ContentTitle>
               <ContentImg src={el.src} alt="" />
             </ContentContainer>

@@ -13,9 +13,9 @@ const Projects = ({ projectsRef }) => {
           <ProjectContainer key={idx}>
             <ProjectTitle>{data.name}</ProjectTitle>
             <ProjectSubTitle>{data.date}</ProjectSubTitle>
-            <ImgSlider img={data.img} key={idx} />
+            <ImgSlider img={data.img} />
             <MainDescript>{data.mainDescript}</MainDescript>
-            <ProjectTag tag={data.tagDescript} key={idx} />
+            <ProjectTag tag={data.tagDescript} />
           </ProjectContainer>
         );
       })}
