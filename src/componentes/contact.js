@@ -3,8 +3,9 @@ import styled from "styled-components";
 import Tags from "./tag";
 
 const Contact = ({ contactRef }) => {
-  const sendAlert = (e) => {
+  const scrollTop = () => {
     alert("메일 전송에 성공했습니다. 확인 후 회신드리겠습니다. 감사합니다.");
+    window.location.replace("/my-resume");
   };
 
   const info = [
@@ -28,7 +29,7 @@ const Contact = ({ contactRef }) => {
         target="iframe1"
         method="POST"
         data-email="lonnie4165@gmail.com"
-        action="https://script.google.com/macros/s/AKfycbxx9jUg4xCo8ZPEodtvjU9INMiMqWt6S_Pv6YYvt_O67nU7DDAzfWam98aTLlBYbOLZsQ/exec"
+        action="https://script.google.com/macros/s/AKfycbypV2ZAGOLtK1HNvAI3HMcR4Cnz8tY_oGa5U4xPBpady9tYlco1DbMmaY_0IIaRWUrX/exec"
       >
         <div>
           <div>
@@ -59,7 +60,7 @@ const Contact = ({ contactRef }) => {
               placeholder="메세지를 입력해주세요."
             />
           </div>
-          <Button type="submit" onClick={sendAlert}>
+          <Button type="submit" onClick={scrollTop}>
             이메일 전송하기
           </Button>
         </div>
