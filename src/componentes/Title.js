@@ -36,7 +36,7 @@ const Text1 = styled.div`
 `;
 
 const RootContainer = styled.div`
-  background: url(${`/img/title.jpeg`}) 50% no-repeat;
+  background: url(${`../img/title.jpeg`}) 50% no-repeat;
   z-index: -1;
   background-size: cover;
   padding: 7rem 3rem;
