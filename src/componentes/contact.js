@@ -28,14 +28,12 @@ const Contact = ({ contactRef }) => {
         method="POST"
         data-email="lonnie4165@gmail.com"
         action="https://script.google.com/macros/s/AKfycbzydGQl7shfvdwTCXvflyeR1m50Fsuy0mx-dK6wivLywc8EAT6ja72O1XDIQHdJ2NLCdw/exec"
-        data-cfasync="false"
       >
         <div>
           <div>
             <InputTitle>* 이름</InputTitle>
             <InputBox name="name" placeholder="이름을 입력하세요." />
           </div>
-
           <div>
             <InputTitle>* Phone</InputTitle>
             <InputBox
@@ -44,7 +42,6 @@ const Contact = ({ contactRef }) => {
               placeholder="전화번호를 입력하세요."
             />
           </div>
-
           <div>
             <InputTitle>* Email</InputTitle>
             <InputBox
@@ -53,7 +50,6 @@ const Contact = ({ contactRef }) => {
               placeholder="사용자의 이메일을 입력하세요."
             />
           </div>
-
           <div>
             <div>Message</div>
             <TextArea
@@ -62,8 +58,9 @@ const Contact = ({ contactRef }) => {
               placeholder="메세지를 입력해주세요."
             />
           </div>
-
-          <Button onClick={sendAlert}>이메일 전송하기</Button>
+          <Button onClick={sendAlert} data-cfasync="false">
+            이메일 전송하기
+          </Button>
         </div>
       </ContactForm>
     </RootContainer>
