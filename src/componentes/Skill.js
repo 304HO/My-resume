@@ -5,23 +5,23 @@ const SkillTool = ({ skillRef }) => {
   const images = [
     {
       name: "Front-End",
-      src: "/img/Skills/Front-End.png",
+      src: "https://304ho.github.io/my-resume/img/Skills/Front-End.png",
     },
     {
       name: "Back-End",
-      src: "/img/Skills/back-end.png",
+      src: "https://304ho.github.io/my-resume/img/Skills/back-end.png",
     },
     {
       name: "Verstion-Control",
-      src: "/img/Skills/version-control.png",
+      src: "https://304ho.github.io/my-resume/img/Skills/version-control.png",
     },
     {
       name: "Communication",
-      src: "/img/Skills/figma.png",
+      src: "https://304ho.github.io/my-resume/img/Skills/figma.png",
     },
     {
       name: "Deployment",
-      src: "/img/Skills/deployment.png",
+      src: "https://304ho.github.io/my-resume/img/Skills/deployment.png",
     },
   ];
 

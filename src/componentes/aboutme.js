@@ -10,10 +10,26 @@ const AboutMe = ({ aboutmeRef }) => {
   };
 
   const images = [
-    { src: "/img/icon1.png", label1: "전문분야", label2: "프론트엔드" },
-    { src: "/img/icon2.png", label1: "협업에", label2: "능숙한 개발자" },
-    { src: "/img/icon3.png", label1: "매일매일", label2: "성장하는 개발자" },
-    { src: "/img/icon4.png", label1: "긍정적인", label2: "마인드" },
+    {
+      src: "https://304ho.github.io/my-resume/img/icon1.png",
+      label1: "전문분야",
+      label2: "프론트엔드",
+    },
+    {
+      src: "https://304ho.github.io/my-resume/img/icon2.png",
+      label1: "협업에",
+      label2: "능숙한 개발자",
+    },
+    {
+      src: "https://304ho.github.io/my-resume/img/icon3.png",
+      label1: "매일매일",
+      label2: "성장하는 개발자",
+    },
+    {
+      src: "https://304ho.github.io/my-resume/img/icon4.png",
+      label1: "긍정적인",
+      label2: "마인드",
+    },
   ];
   return (
     <RootContainer ref={aboutmeRef}>
