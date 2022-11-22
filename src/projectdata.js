@@ -3,9 +3,9 @@ const projectData = [
     name: "PortFolio",
     date: "2022.11 (1주 / 1인 프로젝트)",
     img: [
-      "/img/portfolio/portfolio1.png",
-      "/img/portfolio/portfolio2.png",
-      "/img/portfolio/portfolio3.png",
+      "https://304ho.github.io/my-resume//img/portfolio/portfolio1.png",
+      "https://304ho.github.io/my-resume//img/portfolio/portfolio2.png",
+      "https://304ho.github.io/my-resume//img/portfolio/portfolio3.png",
     ],
     mainDescript:
       "지금 보시는 페이지를 하나의 미니 프로젝트로 개발했습니다. 저의 포트폴리오와 이력을 담아낸 페이지로 React를 이용하여 개발했으며, 재 사용성을 고려하여 컴포넌트를 구현했습니다. 반응형 CSS, React-slick, 스크롤 이벤트를 이용하는 등 UX, UI를 고려하여 개발하였습니다.",
