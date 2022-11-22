@@ -10,19 +10,19 @@ const PairReview = () => {
   };
 
   const images = [
-    "/img/pair/pair1.png",
-    "/img/pair/pair2.png",
-    "/img/pair/pair3.png",
-    "/img/pair/pair4.png",
-    "/img/pair/pair5.png",
-    "/img/pair/pair6.png",
-    "/img/pair/pair7.png",
-    "/img/pair/pair8.png",
-    "/img/pair/pair9.png",
-    "/img/pair/pair10.png",
-    "/img/pair/pair11.png",
-    "/img/pair/pair12.png",
-    "/img/pair/pair13.png",
+    "https://304ho.github.io/my-resume/img/pair/pair1.png",
+    "https://304ho.github.io/my-resume/img/pair/pair2.png",
+    "https://304ho.github.io/my-resume/img/pair/pair3.png",
+    "https://304ho.github.io/my-resume/img/pair/pair4.png",
+    "https://304ho.github.io/my-resume/img/pair/pair5.png",
+    "https://304ho.github.io/my-resume/img/pair/pair6.png",
+    "https://304ho.github.io/my-resume/img/pair/pair7.png",
+    "https://304ho.github.io/my-resume/img/pair/pair8.png",
+    "https://304ho.github.io/my-resume/img/pair/pair9.png",
+    "https://304ho.github.io/my-resume/img/pair/pair10.png",
+    "https://304ho.github.io/my-resume/img/pair/pair11.png",
+    "https://304ho.github.io/my-resume/img/pair/pair12.png",
+    "https://304ho.github.io/my-resume/img/pair/pair13.png",
   ];
 
   return (
