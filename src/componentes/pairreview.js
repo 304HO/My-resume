@@ -18,11 +18,6 @@ const PairReview = () => {
     "https://304ho.github.io/my-resume/img/pair/pair6.png",
     "https://304ho.github.io/my-resume/img/pair/pair7.png",
     "https://304ho.github.io/my-resume/img/pair/pair8.png",
-    "https://304ho.github.io/my-resume/img/pair/pair9.png",
-    "https://304ho.github.io/my-resume/img/pair/pair10.png",
-    "https://304ho.github.io/my-resume/img/pair/pair11.png",
-    "https://304ho.github.io/my-resume/img/pair/pair12.png",
-    "https://304ho.github.io/my-resume/img/pair/pair13.png",
   ];
 
   return (
